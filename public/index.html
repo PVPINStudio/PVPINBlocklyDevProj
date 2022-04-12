@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>PVPIN Blockly Dev Project</title>
+    <style>
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+        }
+
+        #blocklyDiv {
+            height: 100%;
+        }
+
+        #blocklyButton {
+            float: right;
+        }
+    </style>
+</head>
+
+<xml xmlns="https://developers.google.com/blockly/xml" id="toolbox" style="display: none">
+    <block type="math_number"></block>
+    <block type="text"></block>
+    <block type="hello_world"></block>
+    <block type="input_test"></block>
+    <block type="field_test"></block>
+    <block type="field_validator"></block>
+    <block type="location_propmod"></block>
+</xml>
+
+<body>
+    <nav><button id="blocklyButton">转换</button></nav>
+    <div id='blocklyDiv'></div>
+
+    <script type='text/javascript' src='./index.js'></script>
+</body>
+
+</html>
